@@ -6,8 +6,8 @@
 #
 #echo "Tere User!"
 echo -n "Tere "
-echo -n 'who am i | cut -cl | tr [:lower:] [:upper:]' # lõika esimene ja muuda suureks
-echo -n 'who am i | cut -c2-' #  lõika kõik tähed alatest 2-st
+echo -n `who am i | cut -c1 | tr [:lower:] [:upper:]` # lõika esimene ja muuda suureks
+echo -n `who am i | cut -c2-` #  lõika kõik tähed alates 2-st
 echo "!"
 #
 # skripti lõpp
