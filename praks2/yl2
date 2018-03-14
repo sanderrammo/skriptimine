@@ -1,10 +1,12 @@
 #!/bin/bash
 #
-# muljed
+# kasutajate nimekiri kujul Perenimi, Eesnimi
 #
-echo "Sander Rammo" # väljastab reavahetusega minu nime
-echo "ISP217" # väljastab reavahetusega minu grupitunnuse
-echo "Väga lahe" # väljastab reavahetusega minu arvamuse ainest
-echo "Siiamaani on kõik hästi läinud" # väljastab reavahetusega minu mulje, edasijõudmine vms.
+#skripti algus
+#
+who | cut -f1 -d" " | cut -f2 -d"." > perenimi # lõikame perenime
+who | cut -f1 -d" " | cut -f1 -d"." > eesnimi # lõikame eesnime
+paste -d"." perenimi eesnimi > nimed # kleebime need failid kokku
+cat nimed | sort | uniq # sorteerime väljundi ja võtame korduvad välja
 #
 #skripti lõpp
