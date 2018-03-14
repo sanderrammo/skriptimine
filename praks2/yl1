@@ -3,7 +3,7 @@
 #tervitusskript
 #
 echo -n "Tere, " # väljasta ilma reavahetuseta Tere,
-echo -n "User" # väljasta ilma reavahetuseta User
+echo -n "Sander" # väljasta ilma reavahetuseta Sander
 echo "!" # väljasta ! ja tee reavahetus
 #
 # skripti lõpp
