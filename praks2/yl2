@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# muljed
+#
+echo "Sander Rammo" # väljastab reavahetusega minu nime
+echo "ISP217" # väljastab reavahetusega minu grupitunnuse
+echo "Väga lahe" # väljastab reavahetusega minu arvamuse ainest
+echo "Siiamaani on kõik hästi läinud" # väljastab reavahetusega minu mulje, edasijõudmine vms.
+#
+#skripti lõpp
